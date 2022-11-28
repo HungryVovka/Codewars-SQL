@@ -31,3 +31,11 @@ WHERE
     country LIKE 'E%'
     AND continent LIKE 'Afri%'
 ORDER BY capital ASC LIMIT 3;
+
+-- or
+
+SELECT capital FROM countries
+WHERE
+    country LIKE 'E%'
+    AND continent LIKE 'Afri_a'
+ORDER BY capital ASC LIMIT 3;
