@@ -16,8 +16,8 @@
 
 SELECT n,
 CASE
-    WHEN (k + 1) * k >= n THEN (k - 1) * k
-    ELSE (k + 1) * k
+    WHEN (sq_n + 1) * sq_n >= n THEN (sq_n - 1) * sq_n
+    ELSE (sq_n + 1) * sq_n
 END
 AS res FROM (SELECT n, 
-             SQRT(N)::BIGINT AS k FROM pronic) TMP;
+             SQRT(N)::BIGINT AS sq_n FROM pronic) T1;
