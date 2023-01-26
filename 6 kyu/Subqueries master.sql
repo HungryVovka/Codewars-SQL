@@ -10,8 +10,8 @@
 -- you will be provided with a full name and you have to return the name in columns as follows.
 -- 
 -- name						first_lastname						second_lastname
--- Greyson 						Tate								Lebsack	Jr.
--- Elmore							Clementina							O'Conner
+-- Greyson 					Tate							Lebsack	Jr.
+-- Elmore					Clementina						O'Conner
 -- 
 -- Note: Don't forget to remove spaces around names in your result.
 -- Note: Due to multicultural context, if full name has more than 3 words, consider the last 2 as first_lastname and second_lastname, all other 
