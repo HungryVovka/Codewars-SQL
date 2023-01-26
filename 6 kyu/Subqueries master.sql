@@ -3,7 +3,7 @@
 -- 
 -- You will use people table but will focus solely on the name column
 -- 
--- 									name
+-- 								name
 -- 							Greyson Tate Lebsack Jr.
 -- 							Elmore Clementina O'Conner
 -- 
