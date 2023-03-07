@@ -7,7 +7,7 @@
 -- 
 -- id 				id
 -- name 			product_id
--- 					detail
+-- 				detail
 --  
 -- products table schema
 -- - id   - integer
