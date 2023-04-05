@@ -20,7 +20,6 @@ Codewars is a platform that helps you learn, train, and improve your coding skil
 
 By following this tutorial, you will learn how to create a new account on Codewars, configure it for an optimal training experience, and become familiar with basic elements of the user interface. Soon you will be able to face the challenges collected in Codewars' library and start learning!
 
-
 # License
 Tasks are the property of Codewars (https://www.codewars.com/) 
 and users of this resource.
