@@ -7,6 +7,13 @@
 -- Results should be ordered by product's name.
 -- 
 -- Model schema for the kata is:
+-- ┌──────────┐     ┌────────────┐
+-- │ products │     │  details   │
+-- └──────────┘     └────────────┘
+-- │ id       │──┐  │ id         │
+-- │ name     │  └─►│ product_id │
+-- └──────────┘     │ detail     │
+--                  └────────────┘
 -- 
 -- your query should return table with next columns
 -- 
