@@ -3,11 +3,13 @@
 -- products which have rows of their detail. Group and Order by the name of the Product.
 -- 
 -- Tables and relationship below:
--- products			details
--- 
--- id 				id
--- name 			product_id
--- 					detail
+-- ┌──────────┐     ┌────────────┐
+-- │ products │     │  details   │
+-- └──────────┘     └────────────┘
+-- │ id       │──┐  │ id         │
+-- │ name     │  └─►│ product_id │
+-- └──────────┘     │ detail     │
+--                  └────────────┘
 --  
 -- products table schema
 -- - id   - integer
