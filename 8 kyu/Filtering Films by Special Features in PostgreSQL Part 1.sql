@@ -46,7 +46,7 @@ ORDER BY title, film_id;
 
 SELECT film_id, title, special_features
 FROM film AS res
-WHERE special_features @> ARRAY['Trailers', 'Deleted Scenes']
+WHERE special_features @> ARRAY['Trailers', 'Deleted Scenes']::TEXT[]
 ORDER BY title, film_id;
 
 -- -----------------------------------------------------------
