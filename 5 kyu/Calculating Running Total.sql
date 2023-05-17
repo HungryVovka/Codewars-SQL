@@ -19,7 +19,7 @@
 -- total - (INT) a running (cumulative) number of posts up until a date
 -- -----------------------------------------------------------
 
-SELECT created_at::DATE as date,
+SELECT created_at::DATE AS date,
 COUNT(ID)::INTEGER AS count,
 SUM(count(ID)) OVER(ORDER BY created_at::DATE)::INTEGER AS total
 FROM posts
