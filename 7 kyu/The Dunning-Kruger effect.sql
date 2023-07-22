@@ -48,9 +48,9 @@
 
 SELECT id, name, skill_overestimation,
 CASE
-    WHEN skill_overestimation <= 2 THEN 'Mild case of overconfidence'
-    WHEN skill_overestimation <= 5 THEN 'Moderate case of overconfidence'
-    WHEN skill_overestimation <= 7 THEN 'Serious case of overconfidence'
+    WHEN skill_overestimation < 3 THEN 'Mild case of overconfidence'
+    WHEN skill_overestimation < 6 THEN 'Moderate case of overconfidence'
+    WHEN skill_overestimation < 8 THEN 'Serious case of overconfidence'
     ELSE 'Extreme case of Dunning-Kruger effect detected!'
 END AS overconfidence_category
 FROM (
