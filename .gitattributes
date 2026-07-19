@@ -1,1 +1,1 @@
-*.sql linguist-detectable=true
+*.asm linguist-detectable=true gitattributes-language=gcc-machine-description
